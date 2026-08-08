@@ -6,6 +6,7 @@ let and const are not hoisted
 
 Talking about functions
 only function declaration / function literal can be hoisted
+Anonymous functions and arrow functions cannot be hoisted
 */
 
 let no = 10;

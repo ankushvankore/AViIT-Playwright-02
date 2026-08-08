@@ -66,5 +66,5 @@ console.log("Type: " + typeof pi);
 
 console.log("----------------- undefined data type -----------------");
 let year;
-console.log("Year: " + year);
-console.log("Type: " + typeof year);
+console.log("Year: " + year);   //undefined
+console.log("Type: " + typeof year); //undefined
