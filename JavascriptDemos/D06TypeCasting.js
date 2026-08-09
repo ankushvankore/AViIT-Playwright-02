@@ -54,7 +54,7 @@ let no4 = "10" * 5 + "20";
 console.log("Value: " + no4 + " Type: " + typeof no4);
 
 let no5 = "Supriya" - 5;
-console.log("Value: " + no5 + " Type: " + typeof no5);
+console.log("Value: " + no5 + " Type: " + typeof no5);  //NaN
 
 let no6 = "10" * 5 - 20;  
 console.log("Value: " + no6 + " Type: " + typeof no6);
