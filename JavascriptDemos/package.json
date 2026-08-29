@@ -1,0 +1,12 @@
+{
+  "name": "javascriptdemos",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Ankush Vankore Institute of Information Technology",
+  "type": "module",
+  "main": "D01HelloWorld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
