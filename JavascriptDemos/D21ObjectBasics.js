@@ -4,7 +4,7 @@ By default Every key is of type String and value can be of any type
 Ways to declare Object in JS
 1. Object Literal way
 2. Using class (ES6) (Modern JS)
-3. Using Constructor
+3. Using Constructor function
 4. Prototype based object
 */
 

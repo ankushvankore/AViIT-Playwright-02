@@ -25,8 +25,9 @@ function sayHello(){
 sayHello();
 sayHello();
 
-for(let i = 1; i <= 10; i++)
+/*for(let i = 1; i <= 10; i++)
     sayHello();
+*/
 
 console.log("--------------- Function with parameters without return ------------");
 function calculateAddition(n1, n2){
@@ -69,3 +70,36 @@ let ans = calculateMultiplication(7, 8);
 console.log("Multiplication: " + ans);
 
 console.log("Answer: " + calculateMultiplication(5, 6));
+
+/**
+ * 
+ * @param {string} bName 
+ */
+function checkBrowser(bName){
+    switch (bName.toLowerCase()) {
+        case 'chrome':
+            console.log("Launching Chrome...");
+            return true;
+        case 'firefox':
+            console.log("Launching Firefox...");
+            return true;
+        case 'edge':
+            console.log("Launching Edge...");
+            return true;
+        case 'safari':
+            console.log("Launching Safari...");
+            return true;
+        default:
+            console.log("Invalid browser...");
+            return false;
+    }
+}
+
+let isBrowserLaunch = checkBrowser('ChRoMe');
+if(isBrowserLaunch === true){
+    console.log("Please enter URL: ");    
+}
+
+console.log("Type of checkBrowser(): " + typeof checkBrowser);
+
+
