@@ -2,6 +2,7 @@ import {test} from "@playwright/test"
 
 /*
 Fixtures in Playwright - Environment setup
+is a prdefiened code that get executed every time
 
 1. browser - Will create instance of original browser (Chromium)
 2. browser context - For multiple browsers (like multiple users on multiple tabs / browser)
